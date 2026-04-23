@@ -1,0 +1,30 @@
+{
+  "name": "svelte-flowbite-bug",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^7.0.1",
+    "@sveltejs/kit": "^2.57.0",
+    "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "svelte": "^5.55.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.7"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "flowbite": "^4.0.1",
+    "flowbite-svelte": "^1.33.1",
+    "postcss": "^8.5.10",
+    "postcss-load-config": "^6.0.1",
+    "tailwindcss": "^4.2.4"
+  }
+}
